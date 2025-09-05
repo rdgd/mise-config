@@ -1,0 +1,13 @@
+[tools]
+java = 'latest'
+clojure = 'latest'
+node = 'latest'
+yarn = 'latest'
+ruby = '3.1.5'
+go = 'latest'
+python = '3'
+jq = 'latest'
+neovim = 'latest'
+overmind = 'latest'
+ripgrep = 'latest'
+ripgrep-all = 'latest'
