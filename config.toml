@@ -1,13 +1,28 @@
 [tools]
+bat = 'latest'
+bat-extras = 'latest'
+babashka = 'latest'
+docker-compose = 'latest'
+docker-cli = 'latest'
+"cargo:eza" = 'latest'
 java = 'latest'
 clojure = 'latest'
+clj-kondo = 'latest'
 node = 'latest'
 yarn = 'latest'
 ruby = '3.1.5'
+rust = 'latest'
 go = 'latest'
+saml2aws = 'latest'
 python = '3'
+pipx = 'latest'
 jq = 'latest'
 neovim = 'latest'
 overmind = 'latest'
 ripgrep = 'latest'
 ripgrep-all = 'latest'
+terraform = 'latest'
+"pipx:dbt-core" = { version = "1.10.*", uvx_args = "--with dbt-postgres==1.10.*" }
+
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
