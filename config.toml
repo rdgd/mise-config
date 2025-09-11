@@ -23,6 +23,7 @@ overmind = 'latest'
 ripgrep = 'latest'
 ripgrep-all = 'latest'
 terraform = 'latest'
+tmux = 'latest'
 "pipx:dbt-core" = { version = "1.10.*", uvx_args = "--with dbt-postgres==1.10.*" }
 
 [settings]
