@@ -1,19 +1,32 @@
+# Platform-specific tools:
+# - rlwrap: Installed via Homebrew on macOS (see Brewfile or manual `brew install rlwrap`)
+# - rlwrap: Managed by mise on Linux/Windows via mise.linux.toml and mise.windows.toml
+#
+# To use platform-specific configs:
+# - Linux: mise -E linux install
+# - Windows: mise -E windows install
+# - macOS: Uses this config.toml (no rlwrap via mise, uses Homebrew instead)
+
 [tools]
 bat = 'latest'
 bat-extras = 'latest'
 babashka = 'latest'
+bazelisk = 'latest'
+bazel-watcher = 'latest'
 docker-compose = 'latest'
 docker-cli = 'latest'
 "cargo:eza" = 'latest'
 java = 'latest'
 fd = 'latest'
+cabal = 'latest'
 clojure = 'latest'
 clj-kondo = 'latest'
+ghc = 'latest'
+ghcup = 'latest'
 node = 'latest'
 yarn = 'latest'
 ruby = '3.1.5'
 rust = 'latest'
-rlwrap = 'latest'
 go = 'latest'
 saml2aws = 'latest'
 python = '3'
@@ -25,7 +38,9 @@ ripgrep = 'latest'
 ripgrep-all = 'latest'
 terraform = 'latest'
 tmux = 'latest'
+uv = 'latest'
 "pipx:dbt-core" = { version = "1.10.*", uvx_args = "--with dbt-postgres==1.10.*" }
+
 
 [settings]
 idiomatic_version_file_enable_tools = ["ruby"]

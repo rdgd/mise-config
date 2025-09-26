@@ -1,0 +1,10 @@
+# Linux-specific configuration
+# Load this config with: mise -E linux install
+# 
+# rlwrap is installed via mise on Linux because:
+# 1. It compiles cleanly on most Linux distributions
+# 2. ASDF plugin handles dependencies well on Linux
+# 3. Avoids the libptytty compilation issues seen on macOS
+
+[tools]
+rlwrap = 'latest'
