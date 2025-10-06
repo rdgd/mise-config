@@ -1,12 +1,3 @@
-# Platform-specific tools:
-# - rlwrap: Installed via Homebrew on macOS (see Brewfile or manual `brew install rlwrap`)
-# - rlwrap: Managed by mise on Linux/Windows via mise.linux.toml and mise.windows.toml
-#
-# To use platform-specific configs:
-# - Linux: mise -E linux install
-# - Windows: mise -E windows install
-# - macOS: Uses this config.toml (no rlwrap via mise, uses Homebrew instead)
-
 [tools]
 bat = 'latest'
 bat-extras = 'latest'

@@ -1,7 +1,0 @@
-# Windows-specific configuration  
-# Load this config with: mise -E windows install
-#
-# rlwrap is managed via mise on Windows for consistency with Linux
-
-[tools]
-rlwrap = 'latest'
