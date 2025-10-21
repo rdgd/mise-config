@@ -18,6 +18,7 @@ node = 'latest'
 yarn = 'latest'
 ruby = '3.1.5'
 rust = 'latest'
+cargo-make = 'latest'
 rlwrap = {version = 'latest', os = ["macos"]}
 go = 'latest'
 saml2aws = 'latest'
