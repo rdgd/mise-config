@@ -1,4 +1,5 @@
 [tools]
+python = '3'
 aws-cli = 'latest'
 bat = 'latest'
 bat-extras = 'latest'
@@ -22,10 +23,9 @@ yarn = 'latest'
 ruby = '3.1.5'
 rust = 'latest'
 cargo-make = 'latest'
-rlwrap = {version = 'latest', os = ["macos"]}
+# rlwrap = {version = 'latest', os = ["macos"]}
 go = 'latest'
 saml2aws = 'latest'
-python = '3'
 pipx = 'latest'
 jq = 'latest'
 neovim = 'latest'
