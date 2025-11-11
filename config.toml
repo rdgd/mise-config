@@ -34,6 +34,7 @@ opam = 'latest'
 overmind = {version = 'latest', os = ["macos"]}
 ripgrep = 'latest'
 ripgrep-all = 'latest'
+sqlite = 'latest'
 terraform = 'latest'
 tmux = 'latest'
 uv = 'latest'
