@@ -11,7 +11,7 @@ docker-cli = 'latest'
 lua = 'latest'
 "cargo:eza" = 'latest'
 java = 'latest'
-fd = 'latest'
+"cargo:fd-find" = 'latest'
 cabal = 'latest'
 clojure = 'latest'
 clj-kondo = 'latest'
@@ -31,7 +31,7 @@ jq = 'latest'
 neovim = 'latest'
 maven = 'latest'
 opam = 'latest'
-overmind = {version = 'latest', os = ["macos"]}
+# overmind = {version = 'latest', os = ["macos"]}
 ripgrep = 'latest'
 ripgrep-all = 'latest'
 sqlite = 'latest'
@@ -43,3 +43,6 @@ uv = 'latest'
 
 [settings]
 idiomatic_version_file_enable_tools = ["ruby"]
+
+[settings.aqua]
+github_attestations = false
