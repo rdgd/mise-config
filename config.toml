@@ -32,6 +32,7 @@ neovim = 'latest'
 maven = 'latest'
 opam = 'latest'
 # overmind = {version = 'latest', os = ["macos"]}
+opencode = 'latest'
 ripgrep = 'latest'
 ripgrep-all = 'latest'
 sqlite = 'latest'
