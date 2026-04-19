@@ -38,6 +38,7 @@ sqlite = 'latest'
 terraform = 'latest'
 tmux = 'latest'
 uv = 'latest'
+zig = 'latest'
 "pipx:dbt-core" = { version = "1.10.*", uvx_args = "--with dbt-postgres==1.10.*" }
 
 
